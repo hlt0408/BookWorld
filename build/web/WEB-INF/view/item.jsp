@@ -2,23 +2,23 @@
 <html lang="en">
 
 	<head>
-		<#include "header.ftl">
+        <%@include file="/WEB-INF/jspf/header.jspf"%>
 	</head>
 
 	<body>
 
-		<#include "nav.ftl">
+        <%@include file="/WEB-INF/jspf/nav.jspf"%>
 
-		<#include "login.ftl">
+        <%@include file="/WEB-INF/jspf/login.jspf"%>
 
-		<#include "register.ftl">
+        <%@include file="/WEB-INF/jspf/register.jspf"%>
 
-		<#include "jumbotron.ftl">
+        <%@include file="/WEB-INF/jspf/jumbotron.jspf"%>
 
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<#include "breadcrumb.ftl">
+                                    <%@include file="/WEB-INF/jspf/breadcrumb.jspf"%>
 				</div>
 			</div>
 
@@ -107,7 +107,7 @@
 			<hr>
 		</div>
 
-		<#include "footer.ftl">
+        <%@include file="/WEB-INF/jspf/footer.jspf"%>
 
 	</body>
 

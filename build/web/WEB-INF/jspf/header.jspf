@@ -8,13 +8,13 @@ content must come *after* these tags -->
 <title>${title}</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-theme.min.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-social.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/mystyles.css"/>
-<link rel="stylesheet" type="text/css" href="/stylesheets/modern-business.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/sb-admin.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+<link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
+<link rel="stylesheet" type="text/css" href="css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="css/sb-admin.css"/>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

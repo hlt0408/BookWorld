@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <#include "header.ftl">
-</head>
+    <head>
+        <%@include file="/WEB-INF/jspf/header.jspf"%>
+    </head>
 
-<body>
-  <#include "nav.ftl">
-  <#include "login.ftl">
-  <#include "register.ftl">
-  <#include "jumbotron.ftl">
-  <#include "searchbox.ftl">
-  
-  <div class="container">
-  	  <#include "carousel.ftl">
-  	  <#include "browse.ftl">
-  </div>
-  	  
-  <#include "footer.ftl">
-  
-</body>
+    <body>
+        <%@include file="/WEB-INF/jspf/nav.jspf"%>
+        <%@include file="/WEB-INF/jspf/login.jspf"%>
+        <%@include file="/WEB-INF/jspf/register.jspf"%>
+        <%@include file="/WEB-INF/jspf/jumbotron.jspf"%>
+        <%@include file="/WEB-INF/jspf/searchbox.jspf"%>
+
+        <div class="container">
+            <%@include file="/WEB-INF/jspf/carousel.jspf"%>
+            <%@include file="/WEB-INF/jspf/browse.jspf"%>
+        </div>
+
+        <%@include file="/WEB-INF/jspf/footer.jspf"%>
+
+    </body>
 </html>

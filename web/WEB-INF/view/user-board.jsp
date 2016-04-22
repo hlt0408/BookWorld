@@ -2,12 +2,12 @@
 <html lang="en">
 
 	<head>
-		<#include "header.ftl">
+        <%@include file="/WEB-INF/jspf/header.jspf"%>
 	</head>
 
 	<body>
 		<div id="wrapper">
-			<#include "nav-user.ftl">
+                    <%@include file="/WEB-INF/jspf/nav-user.jspf"%>
 
 			<div id="page-wrapper">
 
@@ -122,9 +122,9 @@
 			<!-- /#page-wrapper -->
 
 		</div>
-		<#include "login.ftl">
+        <%@include file="/WEB-INF/jspf/login.jspf"%>
 
-		<#include "register.ftl">
+        <%@include file="/WEB-INF/jspf/register.jspf"%>
 
 	</body>
 

@@ -31,7 +31,7 @@
 	<body>
 		<div id="wrapper">
 
-			<#include "nav-user.ftl">
+                    <%@include file="/WEB-INF/jspf/nav-user.jspf"%>
 
 			<div id="page-wrapper">
 
@@ -101,9 +101,9 @@
 			</div>
 			<!-- /#page-wrapper -->
 		</div>
-		<#include "login.ftl">
+        <%@include file="/WEB-INF/jspf/login.jspf"%>
 
-		<#include "register.ftl">
+        <%@include file="/WEB-INF/jspf/register.jspf"%>
 
 
 	</body>

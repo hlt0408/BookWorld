@@ -2,19 +2,19 @@
 <html lang="en">
 
 	<head>
-		<#include "header.ftl">
+        <%@include file="/WEB-INF/jspf/header.jspf"%>
 		<script src="js/inventory.js"></script>
 	</head>
 
 	<body>
-		<#include "nav.ftl">
-		<#include "login.ftl">
-		<#include "register.ftl">
+        <%@include file="/WEB-INF/jspf/nav.jspf"%>
+        <%@include file="/WEB-INF/jspf/login.jspf"%>
+        <%@include file="/WEB-INF/jspf/register.jspf"%>
 
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-10">
-					<#include "breadcrumb.ftl">
+                                    <%@include file="/WEB-INF/jspf/breadcrumb.jspf"%>
 
 					<div class="row">
 						<nav class="hidden-xs col-sm-2" id="myScrollspy">
@@ -121,7 +121,7 @@
 				</div>
 			</div>
 		</div>
-		<#include "footer.ftl">
+        <%@include file="/WEB-INF/jspf/footer.jspf"%>
 
 	</body>
 </html>
