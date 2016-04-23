@@ -1,1 +1,27 @@
-Sat Apr 23 08:42:22 EDT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+Sat Apr 23 15:41:03 EDT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Sat Apr 23 15:41:35 EDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0154-44a3-c31d-ffffdc237868 
+on database directory /Users/hlt04/NetBeansProjects/BookWorld/DBMS/bookworld with class loader sun.misc.Launcher$AppClassLoader@78308db1 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_45-b14
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/hlt04/NetBeansProjects/BookWorld/DBMS
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 23 15:42:27 EDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 08264012-0154-44a3-c31d-ffffdc237868 
+on database directory /Users/hlt04/NetBeansProjects/BookWorld/DBMS/eshop with class loader sun.misc.Launcher$AppClassLoader@78308db1 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_45-b14
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/hlt04/NetBeansProjects/BookWorld/DBMS
+Database Class Loader started - derby.database.classpath=''

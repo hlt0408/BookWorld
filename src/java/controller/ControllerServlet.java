@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author hlt04
  */
-@WebServlet(loadOnStartup = 1, urlPatterns = {"/aboutus", "/contactus", "/inventory", "/item", "/addToCart", "/viewCart",
+@WebServlet(urlPatterns = {"/aboutus", "/contactus", "/inventory", "/item", "/addToCart", "/viewCart",
     "/updateCart", "/checkout", "/purchase", "/change-password", "/purchase-history", "/user-board"})
 public class ControllerServlet extends HttpServlet {
 
@@ -32,7 +32,7 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        System.out.println("you are in ControllerServlet.java");
         String userPath = request.getServletPath();
 
         // if inventory page is requested
@@ -65,7 +65,7 @@ public class ControllerServlet extends HttpServlet {
             request.setAttribute("title", "checkout");
             userPath = "/checkout";
             // if user switches language
-        }
+        } 
 
         // use RequestDispatcher to forward request internally
         String url = "/WEB-INF/view" + userPath + ".jsp";

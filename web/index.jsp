@@ -10,7 +10,6 @@
         <%@include file="/WEB-INF/jspf/login.jspf"%>
         <%@include file="/WEB-INF/jspf/register.jspf"%>
         <%@include file="/WEB-INF/jspf/jumbotron.jspf"%>
-        <%@include file="/WEB-INF/jspf/searchbox.jspf"%>
 
         <div class="container">
             <%@include file="/WEB-INF/jspf/carousel.jspf"%>

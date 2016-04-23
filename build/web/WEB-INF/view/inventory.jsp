@@ -3,7 +3,7 @@
 
 	<head>
         <%@include file="/WEB-INF/jspf/header.jspf"%>
-		<script src="js/inventory.js"></script>
+	<script src="js/inventory.js"></script>
 	</head>
 
 	<body>
@@ -87,7 +87,7 @@
 						<div class="col-xs-12 col-sm-10" id="inv"></div>
 
 						<!-- Pagination -->
-						<div class="row text-center">
+						<!--div class="row text-center">
 							<div class="col-lg-12">
 								<ul class="pagination">
 									<li>
@@ -113,7 +113,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div -->
 						<!-- /.row -->
 
 						<hr>
