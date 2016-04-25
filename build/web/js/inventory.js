@@ -8,16 +8,19 @@ $(function () {
                 $("#inv").prepend(
                         '<div class="row" id="' + books[i].Index + '">' +
                         '<div class="col-md-5">' +
-                        '<a href="/item">' +
+                        '<a href="#">' +
                         '<img class="img-responsive img-hover" src="img/inventory/' + books[i].Path + '" alt="car picture" width="144" height="128"> </a>' +
                         '</div>' +
                         '<div class="col-md-7">' +
-                        '<h4>Title:       ' + books[i].Title + ' ' + '</h3>' +
-                        '<h4>Author:       ' + books[i].Author + ' ' + '</h3>' +
-                        '<h4>Genre:       ' + books[i].Genre + ' ' + '</h3>' +
-                        '<h5>Rating:       ' + books[i].Rating + ' / 5</h4>' +
-                        '<h5>Price:       $ ' + books[i].Price + '</h4>' +
-                        '<a class="btn btn-primary" href="/BookWorld/item">Buy</a>' +
+                        '<form name = "bookinventory" method = "POST" action = "/BookWorld/CartServlet" >' +
+                        '<h4>Title:&nbsp;' + books[i].Title + '<input type="hidden" name="title" value="' + books[i].Title + '"></h4>' +
+                        '<h4>Author:&nbsp;' + books[i].Author + '<input type="hidden" name="author" value="' + books[i].Author + '"></h4>' +
+                        '<h4>Genre:&nbsp;' + books[i].Genre + '<input type="hidden" name="genre" value="' + books[i].Genre + '"></h4>' +
+                        '<h5>Rating:&nbsp;' + books[i].Rating + '<input type="hidden" name="rating" value="' + books[i].Rating + '"></h5>' +
+                        '<h5>Price:&nbsp;' + books[i].Price + '<input type="hidden" name="price" value="' + books[i].Price + '"></h5>' +
+                        '<h6>Quantity:&nbsp;<input type="text" size="3" maxlength="3" value="1" name="quantity"></h6>' +
+                        '<button class="btn btn-primary" type="submit" name="action" value="add">Add To Cart</button>' +
+                        '</from>' +
                         '</div>' +
                         '</div>' +
                         '<hr>'

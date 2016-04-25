@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author hlt04
  */
 @WebServlet(urlPatterns = {"/aboutus", "/contactus", "/inventory", "/item", "/addToCart", "/viewCart",
-    "/updateCart", "/checkout", "/purchase", "/change-password", "/purchase-history", "/user-board"})
+    "/updateCart", "/checkout", "/purchase", "/change-password", "/purchase-history", "/user-board", "/cart"})
 public class ControllerServlet extends HttpServlet {
 
     /**
@@ -32,7 +32,7 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("you are in ControllerServlet.java");
+        //System.out.println("you are in ControllerServlet.java");
         String userPath = request.getServletPath();
 
         // if inventory page is requested
@@ -56,15 +56,7 @@ public class ControllerServlet extends HttpServlet {
             // TODO: Implement contactus page request
             request.setAttribute("title", "contactus");
             request.setAttribute("contactusactive", true);
-
             userPath = "/contactus";
-
-            // if checkout page is requested
-        } else if (userPath.equals("/checkout")) {
-            // TODO: Implement checkout page request
-            request.setAttribute("title", "checkout");
-            userPath = "/checkout";
-            // if user switches language
         } 
 
         // use RequestDispatcher to forward request internally
@@ -123,7 +115,11 @@ public class ControllerServlet extends HttpServlet {
             request.setAttribute("title", "user-board");
             request.setAttribute("userboardactive", true);
             userPath = "/user-board";
-        }
+        } else if (userPath.equals("/cart")) {
+            // TODO: Implement checkout page request
+            request.setAttribute("title", "Cart");
+            userPath = "/cart";
+        } 
 
         // use RequestDispatcher to forward request internally
         String url = "/WEB-INF/view" + userPath + ".jsp";

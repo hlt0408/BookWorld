@@ -32,83 +32,14 @@
 										Name
 									</dt>
 									<dd>
-										${user.getFullname()}
-									</dd>
-									<dt>
-										Telephone
-									</dt>
-									<dd>
-										${user.gettelephone()}
+										${firstname}
+
 									</dd>
 									<dt>
 										Email
 									</dt>
 									<dd>
-										${user.getemail()}
-									</dd>
-									<dt>
-										Password
-									</dt>
-									<dd>
-										${user.getpassword()}
-									</dd>
-									<dt>
-										Address
-									</dt>
-									<dd>
-										${user.getaddress()}, ${user.getcity()}, ${user.getstate()} ${user.getzipcode()}
-									</dd>
-									<dt>
-										User Type
-									</dt>
-									<dd>
-										${user.getusertype()}
-									</dd>
-									<dt>
-										Income
-									</dt>
-									<dd>
-										${user.getincome()}
-									</dd>
-									<dt>
-										Marriage
-									</dt>
-									<dd>
-										${user.getmarriage()}
-									</dd>
-									<dt>
-										Gender
-									</dt>
-									<dd>
-										${user.getgender()}
-									</dd>
-									<dt>
-										Age
-									</dt>
-									<dd>
-										${user.getage()}
-									</dd>
-									<dt>
-										Business Category
-									</dt>
-									<dd>
-										${user.getbusinessCategory()}
-									</dd>
-									<dt>
-										Can we contact?
-									</dt>
-									<dd>
-										<#if user.getcanContact()>
-										Yes
-										<#else>
-										No
-										</#if>
-									</dd>
-									<dt>
-										Contact method
-									</dt>
-									<dd>
-										${user.getcontactMethod()}
+										${sessionScope.email}
 									</dd>
 								</dl>
 							</div>

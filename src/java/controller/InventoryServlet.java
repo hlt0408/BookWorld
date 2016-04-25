@@ -38,7 +38,7 @@ public class InventoryServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException {
-        System.out.println("you are in InventoryServlet.java");
+        //System.out.println("you are in InventoryServlet.java");
         response.setContentType("application/json"); // response of json format
         // database path, in case lost database, you can find the path by right clicking "Java DB" under services table
         String connectionURL = "jdbc:derby://localhost:1527/bookworld";
@@ -63,7 +63,7 @@ public class InventoryServlet extends HttpServlet {
                 jo.append("Path", rs.getString("Path"));
                 jo.append("Price", rs.getString("Price"));
                 joa.put(jo); // add single json item to json array joa
-                System.out.println(jo.toString());
+                //System.out.println(jo.toString());
             }
             out.write(joa.toString()); // return json array as string
 

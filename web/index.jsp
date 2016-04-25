@@ -13,7 +13,6 @@
 
         <div class="container">
             <%@include file="/WEB-INF/jspf/carousel.jspf"%>
-            <%@include file="/WEB-INF/jspf/browse.jspf"%>
         </div>
 
         <%@include file="/WEB-INF/jspf/footer.jspf"%>

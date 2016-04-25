@@ -10,14 +10,14 @@
 					</div>
 					<div class="modal-body">
 
-						<form class="form-inline" role="search" action="/login" method="POST">
+						<form class="form-inline" role="search" action="/BookWorld/Login" method="POST">
 							<div class="form-group">
 								<input type="text" class="form-control input-sm" placeholder="Email" name="email">
 								<input type="text" class="form-control input-sm" placeholder="Password" name="password">
 							</div>
-							<label class="checkbox-inline">
+							<!--label class="checkbox-inline">
 								<input type="checkbox" name="approve" value="">
-								<strong>Remember me</strong> </label>
+								<strong>Remember me</strong> </label-->
 							<button type="submit" class="btn btn-info">
 								Sign in
 							</button>

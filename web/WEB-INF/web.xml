@@ -4,9 +4,41 @@
         <servlet-name>InventoryServlet</servlet-name>
         <servlet-class>controller.InventoryServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>controller.Register</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controller.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>controller.Logout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>controller.CartServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>InventoryServlet</servlet-name>
         <url-pattern>/InventoryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/CartServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

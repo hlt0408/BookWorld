@@ -42,14 +42,17 @@
             ${userboardactive ? '<li class="active">' : "<li>"}
                 <a href="/BookWorld/user-board"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
-            ${purchasehistoryctive ? '<li class="active">' : "<li>"}
+            ${cartactive ? '<li class="active">' : "<li>"}
+                <a href="/BookWorld/cart"><i class="fa fa-fw fa-dashboard"></i> Shopping Cart</a>
+            </li>
+            ${purchasehistoryctive ? '<!-- li class="active">' : "<!-- li>"}
                 <a href="/BookWorld/purchase-history"><i class="fa fa-fw fa-bar-chart-o"></i> Purchase History</a>
-            </li>
-            ${changepasswordactive ? '<li class="active">' : "<li>"}
+            </li -->
+            ${changepasswordactive ? '<!-- li class="active">' : "<!--li>"}
                 <a href="/BookWorld/change-password"><i class="fa fa-fw fa-edit"></i> Change Password</a>
-            </li>
+            </li -->
             <li>
-                <a href="/BookWorld/"><i class="fa fa-sign-out"></i> Logout</a>
+                <a href="/BookWorld/Logout"><i class="fa fa-sign-out"></i> Logout</a>
             </li>
         </ul>
     </div>
