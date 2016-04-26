@@ -1,7 +1,7 @@
-Mon Apr 25 18:26:18 EDT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+Mon Apr 25 20:17:35 EDT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Mon Apr 25 18:27:13 EDT 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0154-4f87-c477-ffffdc237868 
+Mon Apr 25 20:18:09 EDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0154-4fed-a4b5-ffffdc237868 
 on database directory /Users/hlt04/NetBeansProjects/BookWorld/DBMS/bookworld with class loader sun.misc.Launcher$AppClassLoader@78308db1 
 Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
 java.vendor=Oracle Corporation

@@ -20,6 +20,10 @@
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>controller.CartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>FilterByGenreServlet</servlet-name>
+        <servlet-class>controller.FilterByGenreServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>InventoryServlet</servlet-name>
         <url-pattern>/InventoryServlet</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/CartServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterByGenreServlet</servlet-name>
+        <url-pattern>/FilterByGenreServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
